@@ -32,3 +32,12 @@ light particles. Until then, the site falls back to a plain gradient so
 nothing looks broken. See `assets/img/README.md` for image tips.
 
 Motion respects `prefers-reduced-motion`.
+
+## Design skill
+
+`.claude/skills/ui-ux-pro-max/` is vendored from
+[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+(MIT) — a local, offline design-reference skill for Claude Code (style/color/
+typography/motion/UX-guideline databases, no network calls). It's project-scoped:
+available whenever Claude works in this repo, not in other projects, unless
+vendored there too or installed as a Claude Code plugin from the same source.
