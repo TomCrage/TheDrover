@@ -56,7 +56,8 @@
     var ticking = false;
     var updateParallax = function () {
       var y = window.scrollY;
-      var shift = Math.min(y * 0.32, 60);
+      var heroH = hero.offsetHeight || window.innerHeight;
+      var shift = Math.min(y * 0.35, heroH * 0.2);
       hero.style.setProperty('--py', shift + 'px');
       ticking = false;
     };
